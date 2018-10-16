@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1097341979723",
+    "firebase_url": "https://anuragchatapp-6eddf.firebaseio.com",
+    "project_id": "anuragchatapp-6eddf",
+    "storage_bucket": "anuragchatapp-6eddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097341979723:android:75b7b768ea931101",
+        "android_client_info": {
+          "package_name": "com.example.anurag.anurag_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097341979723-2hoq4bq0vv1usmemqvbf15j33mj23srs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anurag.anurag_chat_app",
+            "certificate_hash": "dafb279d11dea3c35ef8fdaa1d48811e72f4c207"
+          }
+        },
+        {
+          "client_id": "1097341979723-snnb2agadmp21npfefc3eutq2p9h6jpl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1097341979723-snnb2agadmp21npfefc3eutq2p9h6jpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLUj31DHNbmZUzs_J-KeIc6yB9abFNZm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097341979723-snnb2agadmp21npfefc3eutq2p9h6jpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
