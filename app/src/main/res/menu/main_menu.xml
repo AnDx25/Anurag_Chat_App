@@ -18,4 +18,7 @@
         android:visible="false"
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/main_chat_blog"
+        android:title="Chat Blog" />
 </menu>

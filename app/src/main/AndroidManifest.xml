@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
-
     <application
         android:name=".LapitChat"
         android:allowBackup="true"
@@ -20,23 +19,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service
-            android:name=".FirebaseMessagingService">
+        <service android:name=".FirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.example.anurag.anurag_chat_app_TARGET_NOTIFICATION">
-            </action>
-           <category
-               android:name="android.intent.category.DEFAULT">
+                <action android:name="com.example.anurag.anurag_chat_app_TARGET_NOTIFICATION" />
 
-           </category>
-
+                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -57,12 +51,11 @@
         <activity
             android:name=".AllUsersActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ProfileActivity" >
+        <activity android:name=".ProfileActivity">
             <intent-filter>
-                <action android:name="com.example.anurag.anurag_chat_app_TARGET_NOTIFICATION">
-                </action>
-                <category android:name="android.intent.category.DEFAULT">
-                </category>
+                <action android:name="com.example.anurag.anurag_chat_app_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
@@ -70,7 +63,8 @@
             android:parentActivityName=".MainActivity">
             android:windowSoftInputMode="adjustPan"
         </activity>
-
+        <activity android:name=".Chat_Blog" />
+        <activity android:name=".PostActivity"></activity>
     </application>
 
 </manifest>

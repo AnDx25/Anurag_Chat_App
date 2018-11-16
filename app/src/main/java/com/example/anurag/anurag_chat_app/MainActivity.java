@@ -104,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
             Intent i=new Intent(MainActivity.this,AllUsersActivity.class);
             startActivity(i);
         }
+        if(item.getItemId()==R.id.main_chat_blog)
+        {
+            Intent i=new Intent(MainActivity.this,Chat_Blog.class);
+            startActivity(i);
+        }
         return true;
     }
 }
